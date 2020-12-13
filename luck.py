@@ -1,0 +1,2 @@
+#MENGGUNAKAN OOP
+print('hope')
