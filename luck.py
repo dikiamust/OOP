@@ -19,3 +19,12 @@ print( z1.hitung_luas() )
 b1 = BangunRuang ()
 print(b1.info())
 print(b1.hitung_luas())
+
+#POLIMERPHISME : KEMAMPUAN OBJECT UNTUK MERESPON BERBEDA,THD PEMANGGILAN METHOD YG SAMA
+daftar_bangun_ruang = []
+daftar_bangun_ruang.append(p1)
+daftar_bangun_ruang.append(z1)
+
+print('polimorphisme')
+for bangun_ruang in daftar_bangun_ruang :
+    print(bangun_ruang.info())
