@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://wikipedia.com'
+url = 'https://remoteworker.id'
 try:
     response = requests.get( url )
     if response.status_code == 200:
